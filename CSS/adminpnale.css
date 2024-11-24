@@ -1,0 +1,371 @@
+@font-face {
+    font-family: hero;
+    src: url(../imgs/92zatBhPNqw73oTd4g.ttf);
+}
+
+@font-face {
+    font-family: hero2;
+    src: url(../imgs/themify.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero2;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    overflow: hidden;
+    position: relative;
+}
+/* pgae1 CSS */
+
+.page1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page1 img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.page1 h1 {
+    color: white;
+    font-size: 5.5vw;
+    font-weight: 100;
+    font-family: hero2;
+    line-height: 4.5vw;
+    letter-spacing: 0.1vw;
+}
+
+.page1 p {
+    color: white;
+    font-family: hero;
+    font-size: 1.3vw;
+    font-weight: 100;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+}
+
+/* page2 CSS */
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 4vw;
+    font-family: hero;
+
+}
+
+.page3 .pg3ptr1 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 5vw 0;
+}
+
+.pg3ptr1 h3 {
+    font-size: 1.3vw;
+    font-family: hero;
+    font-weight: 700;
+}
+
+.pg3ptr1 .h1-span h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    line-height: 4.5vw;
+    letter-spacing: 0vw;
+    font-style: italic;
+}
+
+.pg3ptr1 .p-span p {
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: hero;
+
+}
+
+.page3 .pg3ptr2 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    padding-top: 3vw;
+}
+
+.pg3ptr2 .con {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.con img {
+    border-radius: 1.5vw;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+.con .imgtext {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 2vw 2.5vw;
+    color: white;
+}
+
+.imgtext p {
+    margin-top: 1.3vw;
+    font-size: 1.1vw;
+    font-family: hero;
+    font-weight: 100;
+}
+
+.imgtext h1 {
+    font-weight: 100;
+    font-size: 2.5vw;
+}
+
+.imgtext .imgtext-bottom {
+    width: 100%;
+    margin-top: 1.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgtext .imgtext-bottom button {
+    padding: 0.7vw 2.4vw;
+    border: 1px solid white;
+    border-radius: 1.5vw;
+    background-color: transparent;
+    color: white;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.imgtext .imgtext-bottom h3 {
+    font-weight: 100;
+    font-size: 1.3w;
+    font-family: hero;
+}
+
+.page3 .pg3ptr3 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    padding-top: 3vw;
+}
+
+.pg3ptr3 .con {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+/* page3 css */
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%);
+    position: absolute;
+    z-index: -1;
+    -webkit-backdrop-filter: blur();
+    backdrop-filter: blur(50%);
+}
+
+.page5 .text h3 {
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: hero;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.page5 .text h1 {
+    font-size: 15vw;
+    font-weight: 100;
+    font-family: hero2;
+    letter-spacing: 2vw;
+    font-style: italic;
+    color: white;
+    line-height: 9vw;
+}
+
+.page5 .text button {
+    margin-top: 4vw;
+    font-weight: 100;
+    font-size: 1.4vw;
+    cursor: pointer;
+    padding: 0.7vw 2.5vw;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2vw;
+}
+
+/* page4 css */
+
+.page7{
+    /* min-height: 100vh; */
+     width: 100%;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* text-align: center; */
+ }
+ 
+ .page7 h5{
+     text-align: center;
+     font-size: 1.5vw;
+     font-weight: 100;
+     font-family: hero;
+ }
+ 
+ .page7 h1{
+     text-align: center;
+     font-size: 5.1vw;
+     font-weight: 100;
+     letter-spacing: 0.01vw;
+     line-height: 4.5vw;
+     font-family: hero2;
+     margin-bottom: 5vw;
+ }
+ .page7 form{
+     /* height: 100%;
+     width: 70%; */
+     padding: 0 2vw;
+     margin-top: 5vw;
+ }
+ .page7 form input,select,textarea{
+     margin-bottom: 2vw;
+ }
+ .page7 form label{
+     text-align: start;
+ 
+ }
+ 
+ .page7 form input,select,option,textarea{
+     width: 45vw;
+     height: 3.2vw;
+     background-color: transparent;
+     border: 1px solid black;
+     border-radius: 4vw;
+     /* padding: 2vw; */
+     font-size: 1vw;
+     color: black;
+     align-items: center;
+     font-family: hero;
+     
+ }
+ 
+ input[type="text"],input[type="email"],input[type="date"]{
+     padding-left: 15px;
+     
+ }
+ option{
+     font-size: 1vw;
+ }
+ .textarea{
+     height: 5vw;
+     border-radius: 20px;
+     margin-left: 2px;
+ }
+ 
+ .page7 form button{
+     background-color: black;
+     border-radius: 4vw;
+     color: white;
+     font-family: hero;
+     width: 7.2vw;
+     height: 3vw;
+     border: 1px solid #000;
+     margin-top: 1vw;
+     margin-bottom: 2vw;
+     font-size: 1vw;
+     font-weight: 600;
+ }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: hero;
+    font-size: 1.3vw;
+    color:white;
+}
+th {
+    background-color: black;
+}
+.container {
+    margin: 20px;
+
+}
+.btn {
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.tb1 td{
+    color: black ;
+}

@@ -1,0 +1,178 @@
+@font-face {
+    font-family: hero;
+    src: url(../imgs/92zatBhPNqw73oTd4g.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/* page1 CSS */
+.page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1 h4 {
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.page1 h1 {
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+/* page2 CSS */
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
+}
+
+.page2 img {
+    height: 110%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 2vw;
+    margin-top: -15vw;
+}
+
+/* page3 CSS */
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30vw;
+    gap: 1vw;
+}
+
+.page3 p{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+
+/* page4 CSS */
+.page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 .img1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+/* page7 css */
+
+.page7 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.page7 h5 {
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: hero;
+}
+
+.page7 h1 {
+    font-size: 5.1vw;
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    line-height: 4.5vw;
+}
+
+.page7 form {
+    height: 100%;
+    width: 70%;
+    padding: 0 2vw;
+    margin-top: 5vw;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.page7 form input,
+select,
+textarea {
+    height: 3.5vw;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4vw;
+    padding: 2vw;
+    font-size: 1.3vw;
+    color: black;
+}
+
+.page7 form option {
+    color: black;
+}
+
+.page7 button {
+    height: 3.5vw;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3vw;
+}

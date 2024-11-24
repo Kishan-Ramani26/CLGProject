@@ -1,0 +1,249 @@
+@font-face {
+    font-family: hero;
+    src: url(../imgs/92zatBhPNqw73oTd4g.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+.main{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.page1 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    filter: brightness(75%);
+}
+
+.page1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 10vw;
+    font-weight: 100;
+    letter-spacing: 2vw;
+    text-transform: uppercase;
+}
+
+/* page2 css */
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 5vw;
+    gap: 3vw;
+}
+
+.container .ptr1{
+    height: 80%;
+    width: 50%;
+    position: relative;
+    /* background-color: red; */
+}
+
+.container .ptr1 img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+.container .ptr2{
+    height:100%;
+    width: 50%;
+    position: relative;
+    /* background-color: black; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.container .ptr2 h1{
+    margin-top: 2vw;
+    font-size: 3vw;
+    font-weight: 100;
+    text-decoration: underline;
+}
+.container .ptr2 p{
+    font-size: 1.5vw;
+    font-weight: 100;
+    letter-spacing: -0.01vw;
+}
+
+/* page3 css */
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+/* page4 css */
+
+.page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* page5 css */
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* padding-left: 100px; */
+    /* background-color: rebeccapurple; */
+}
+/* page6 css */
+
+.page6{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* page7 css */
+
+.page7{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* page8 css */
+
+.page8{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* Table CSS */
+
+.page8 .maintable{
+    position: absolute;
+    height: 50%;
+    width: 50%;    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page8  tr td {
+
+    color: black;
+    border: 1px solid  none;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+.page8 table{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* Footer */
+
+footer{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: black;
+    background-color: white;
+    padding: 3vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vw;
+}
+
+footer h1{
+    font-size: 3vw;
+    font-weight: 100;
+    letter-spacing: 3vw;
+    border-right: 1px solid white;
+}
+footer p{
+    position: absolute;
+    font-size: 1vw;
+    font-weight: 100;
+    bottom: 2%;
+    padding: 0 5vw;
+}
+
+footer .icons{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+footer .icons a{
+    text-decoration: none;
+}
+
+
+footer .icons i{
+    cursor: pointer;
+    z-index: 9;
+    font-size: 2vw;
+    color: black;
+}

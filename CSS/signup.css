@@ -1,0 +1,192 @@
+@font-face {
+    font-family: hero;
+    src: url(../imgs/92zatBhPNqw73oTd4g.ttf);
+}
+
+@font-face {
+    font-family: hero2;
+    src: url(../imgs/themify.woff);
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url(../FONTS/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2);
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../FONTS/jost.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.loginpage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 2vw 5vw;
+}
+
+.ptr1 {
+    margin-left: -5vw;
+    height: 48vw;
+    width: 55vw;
+}
+
+.bg {
+    margin-left: -5vw;
+    height: 48vw;
+    width: 60vw;
+    background-image: url(../imgs/loginbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    filter: brightness(80%);
+}
+
+.logo {
+    align-items: center;
+    color: white;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 200;
+    margin-top: -72%;
+    margin-left: 24vw;
+}
+
+.logo h6 {
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #000;
+    width: 7vw;
+}
+
+.ptr1 h1 {
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    font-size: 4vw;
+    font-family: hero2;
+    color: white;
+    margin-top: -80%;
+}
+
+.para {
+    color: white;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: hero;
+    font-size: 0.85vw;
+    font-weight: 200;
+    margin-top: 27vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+/* Part 2 */
+
+.ptr2 {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.ptr2 h1 {
+    font-family: hero2;
+    font-size: 4vw;
+    margin-top: -10vw;
+}
+
+
+.uder {
+    border-bottom: 1px solid black;
+
+}
+
+.ptr2 hr {
+    border: 1px solid black;
+    
+}
+.ptr2 p{
+    text-align: center;
+}
+
+
+/* Form CSS */
+
+.formdiv {
+
+    margin-top: 3.5vw;
+    height: 80vw;
+
+}
+
+.formdiv form {
+    font-family: "Cormorant Garamond";
+}
+
+.formdiv button {
+    border: 1px solid #000;
+    width: 22vw;
+    height: 2.5vw;
+    color: white;
+    background-color: #000;
+    margin-top: 2vw;
+}
+
+.formdiv form input {
+    width: 22vw;
+    border: 1px solid #000;
+    height: 2.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.1vw;
+    border-radius: 2px;
+}
+
+
+
+
+.formdiv a {
+    all: unset;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.formdiv input[type="text"],input[type="password"],input[type="email"] {
+    padding-left: 15px;
+}
+
+
+.message{
+    font-weight: 600;
+    margin-bottom: -1vw;
+}

@@ -1,0 +1,574 @@
+@font-face {
+    font-family: hero;
+    src: url(../FONTS/jost.woff2);
+}
+
+@font-face {
+    src: url(../FONTS/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2);
+    font-family: hero2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero2;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* losder CSS */
+
+.loader {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -99;
+
+}
+
+.loader h1 {
+    font-size: 5vw;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 0.01vw;
+    opacity: 1;
+}
+
+/* pgae1 CSS */
+
+.page1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page1 img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.page1 h1 {
+    color: white;
+    font-size: 5.5vw;
+    font-weight: 100;
+    font-family: hero2;
+    line-height: 4.5vw;
+    letter-spacing: 0.1vw;
+}
+
+.page1 p {
+    color: white;
+    font-family: hero;
+    font-size: 1.3vw;
+    font-weight: 100;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+}
+
+
+/* page2 CSS */
+
+.page2 {
+    height: 300vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: -5vw;
+}
+
+.page2 .pg2col1 {
+    height: 10%;
+    width: 100%;
+    position: relative;
+    padding: 0 7vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pg2col1 .col1ptr1 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.pg2col1 .col1ptr1 h2 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+
+.pg2col1 .col1ptr2 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 3vw;
+}
+
+.pg2col1 .col1ptr2 h2 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.pg2col1 .col1ptr2 .ptr2sec3 button {
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding: 0.5vw 2vw;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 1.5vw;
+    color: white;
+}
+
+.page2 .pg2col2 {
+    height: 30%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pg2col2 h3{
+    font-size: 1.5vw;
+    font-weight: 100;
+    margin-bottom: 0.5vw;
+}
+
+.pg2col2 h1{
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 5vw;
+}
+
+
+
+.page2 .pg2col3 {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 0 7vw;
+    
+}
+
+.pg2col3 .col3ptr1{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.pg2col3 .col3ptr1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(70%);
+    border: none;
+    border-radius: 2vw;
+    margin-top: 1vw;
+}
+
+.pg2col3 .col3ptr2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.col3ptr2 p{
+    font-size: 1.9vw;
+    font-weight: 100;
+}
+
+
+
+.page2 .pg2col4 {
+    height: 40%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7vw;
+}
+
+.pg2col4 .col4ptr1{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.pg2col4 .line{
+    height: 1px;
+    width: 80%;
+    background-color: gray;
+    margin-bottom: 1vw;
+}
+
+.pg2col4 .col4ptr2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.pg2col4 h4{
+    font-size: 2vw;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.pg2col4 h1{
+    font-size: 4vw;
+    font-weight: 100;
+    margin-bottom: 1vw;
+}
+
+.pg2col4 p{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+
+/* page3 CSS */
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+    padding:0 5vw ;
+}
+
+.page3 .pg3ptr1{
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: -23vw;
+    padding:0 7vw ;
+}
+
+.pg3ptr1 img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1vw;
+}
+
+
+.page3 .pg3ptr2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+}
+
+.pg3ptr2 h1{
+    font-size: 4vw;
+    font-weight: 100;
+    margin-bottom: 1.5vw;
+}
+
+.pg3ptr2 p{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+
+/* page4 CSS */
+
+.page4{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #F0F0F0;
+}
+
+.page4 .round{
+    height: 8vw;
+    width: 8vw;
+    border: 1px dotted black;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4vw;
+}
+
+.page4 .round h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.page4 .day1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3vw;
+}
+.page4 .day2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.dtop{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 10vw;
+    gap: 5vw;
+    margin-top: 1vw;
+}
+.dtop .ptr1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.dtop .ptr2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.dtop p{
+    font-size: 1.35vw;
+    font-weight: 500;
+    font-family: hero;
+    color: black;
+}
+.dtop h2{
+    margin-bottom: 2vw;
+}
+.dtop h1{
+    font-size: 4.8vw;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+
+.dbottom{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.dbottom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(80%);
+}
+
+
+
+/* page5 css */
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page5 img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%);
+    position: absolute;
+    border-radius: 2vw;
+    z-index: -1;
+    
+}
+
+.page5 .text h3 {
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: hero;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.page5 .text h1 {
+    font-size: 15vw;
+    font-weight: 100;
+    font-family: hero2;
+    letter-spacing: 2vw;
+    font-style: italic;
+    color: white;
+    line-height: 9vw;
+}
+
+.page5 .text button {
+    margin-top: 4vw;
+    font-weight: 100;
+    font-size: 1.4vw;
+    cursor: pointer;
+    padding: 0.7vw 2.5vw;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2vw;
+}
+
+
+/* form CSS */
+/* page7 css */
+
+.page7 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.page7 h5 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: hero;
+}
+
+.page7 h1 {
+    font-size: 5.1vw;
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    line-height: 4.5vw;
+}
+
+.page7 form {
+    height: 100%;
+    width: 70%;
+    padding: 0 2vw;
+    margin-top: 5vw;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.page7 form input,
+select,
+textarea {
+    height: 3.5vw;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4vw;
+    padding: 2vw;
+    font-size: 1.3vw;
+    color: black;
+}
+
+.page7 form option {
+    color: black;
+}
+
+.page7 button {
+    height: 3.5vw;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3vw;
+}

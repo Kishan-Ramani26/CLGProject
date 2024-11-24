@@ -1,0 +1,119 @@
+/* footer css */
+
+
+footer {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    background-color: black;
+    padding: 3vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .footerptr1 {
+    height: 40%;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3vw;
+}
+
+.footerptr1 h3 {
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: hero;
+    color: #FC6220;
+    text-transform: uppercase;
+}
+
+.footerptr1 .icons {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    scale: 0.7;
+}
+
+footer .footerptr2 {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerptr2 .ftptr1 {
+
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1vw 0;
+}
+
+.footerptr2 .ftptr1 h1 {
+    font-size: 3vw;
+    font-weight: 100;
+    color: #FC6220;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.footerptr2 .ftptr1 h3 {
+    font-size: 1.8vw;
+    font-weight: 100;
+    font-family: hero;
+}
+
+.footerptr2 .ftptr2 {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1vw 0;
+}
+
+.footerptr2 .ftptr2 h1 {
+    font-size: 2.3vw;
+    font-weight: 100;
+    color: #FC6220;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    text-transform: uppercase;
+}
+
+.footerptr2 .ftptr2 h3 {
+    font-size: 1.2vw;
+    font-weight: 100;
+    font-family: hero;
+}
+
+.footerptr2 .ftptr3 {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footerptr2 .ftptr3 h1{
+    font-size: 2.7vw;
+    font-weight: 100;
+    font-family: hero;
+    color: gray;
+    margin-top: 3vw;
+}

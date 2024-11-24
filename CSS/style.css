@@ -1,0 +1,880 @@
+@font-face {
+    font-family: hero;
+    src: url(../imgs/92zatBhPNqw73oTd4g.ttf);
+}
+
+@font-face {
+    font-family: hero2;
+    src: url(../imgs/themify.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hero2;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* losder CSS */
+
+.loader {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -99;
+
+}
+
+.loader h1 {
+    font-size: 5vw;
+    font-weight: 100;
+    color: white;
+
+    letter-spacing: 0.01vw;
+    opacity: 1;
+}
+
+/* pgae1 CSS */
+
+.page1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page1 img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.page1 h1 {
+    color: white;
+    font-size: 5.5vw;
+    font-weight: 100;
+    font-family: hero2;
+    line-height: 4.5vw;
+    letter-spacing: 0.1vw;
+}
+
+.page1 p {
+    color: white;
+    font-family: hero;
+    font-size: 1.3vw;
+    font-weight: 100;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+}
+
+/* page2 CSS */
+
+.page2 {
+    padding: 0;
+    height: 200vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page2 .pg2upper {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page2 .pg2bottom {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -10vw;
+}
+
+.pg2bottom .col1 {
+    height: 100%;
+    width: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col1 img {
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 1vw;
+    object-fit: contain;
+    object-position: center;
+}
+
+.col1 h1 {
+    font-size: 2vw;
+    font-weight: 100;
+    line-height: 2vw;
+}
+
+.col1 span {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.col1 span p {
+    font-weight: 100;
+    line-height: 1.5vw;
+}
+
+.col1 .ptr2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9;
+    bottom: 5vw;
+    left: 10vw;
+}
+
+.pg2bottom .col2 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.col2 .img1 {
+    position: absolute;
+    height: 37vw;
+    width: 27vw;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+    transform: rotate(-5deg);
+    top: 15vw;
+    left: 7vw;
+}
+
+.col2 .img2 {
+    height: 30vw;
+    width: 20vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(5deg);
+    left: 27vw;
+    top: 23vw;
+}
+
+.col2 .ptr2 {
+    position: absolute;
+    z-index: 2;
+    bottom: 4vw;
+    left: 15vw;
+}
+
+
+.pg2bottom .col3 {
+    padding: 1vw 0;
+    height: 100%;
+    width: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.col3 h2 {
+    font-size: 1.4vw;
+    font-weight: 100;
+    line-height: 2vw;
+}
+
+
+
+
+
+/* page3 CSS */
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 4vw;
+
+}
+
+.page3 .pg3ptr1 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 5vw 0;
+}
+
+.pg3ptr1 h3 {
+    font-size: 1.3vw;
+    font-family: hero;
+    font-weight: 700;
+}
+
+.pg3ptr1 .h1-span h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    line-height: 4.5vw;
+    letter-spacing: 0vw;
+    font-style: italic;
+}
+
+.pg3ptr1 .p-span p {
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: hero;
+
+}
+
+.page3 .pg3ptr2 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    padding-top: 3vw;
+}
+
+.pg3ptr2 .con {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.con img {
+    border-radius: 1.5vw;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+.con .imgtext {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 2vw 2.5vw;
+    color: white;
+}
+
+.imgtext p {
+    margin-top: 1.3vw;
+    font-size: 1.1vw;
+    font-family: hero;
+    font-weight: 100;
+}
+
+.imgtext h1 {
+    font-weight: 100;
+    font-size: 2.5vw;
+}
+
+.imgtext .imgtext-bottom {
+    width: 100%;
+    margin-top: 1.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgtext .imgtext-bottom button {
+    padding: 0.7vw 2.4vw;
+    border: 1px solid white;
+    border-radius: 1.5vw;
+    background-color: transparent;
+    color: white;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.imgtext .imgtext-bottom h3 {
+    font-weight: 100;
+    font-size: 1.3w;
+    font-family: hero;
+}
+
+.page3 .pg3ptr3 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    padding-top: 3vw;
+}
+
+.pg3ptr3 .con {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* page4 CSS */
+
+.page4 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 .pg4img2 {
+    height: 32.2vw;
+    width: 50vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.page4 .line1 {
+    height: 0.2vw;
+    width: 70%;
+    background-color: gray;
+    position: absolute;
+    z-index: -2;
+    top: 30%;
+}
+.page4 .line2 {
+    height: 0.2vw;
+    width: 90%;
+    background-color: gray;
+    position: absolute;
+    z-index: -2;
+    top: 45%;
+}
+.page4 .line3 {
+    height: 0.2vw;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    z-index: -2;
+    top: 65%;
+}
+
+/* page5 css */
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(50%);
+    position: absolute;
+    z-index: -1;
+}
+
+.page5 .text h3 {
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: hero;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.page5 .text h1 {
+    font-size: 15vw;
+    font-weight: 100;
+    font-family: hero2;
+    letter-spacing: 2vw;
+    font-style: italic;
+    color: white;
+    line-height: 9vw;
+}
+
+.page5 .text button {
+    margin-top: 4vw;
+    font-weight: 100;
+    font-size: 1.4vw;
+    cursor: pointer;
+    padding: 0.7vw 2.5vw;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2vw;
+}
+
+/* page6 CSS */
+
+.page6 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.page6 .topptr {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topptr img {
+    height: 6vw;
+    width: 6vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    left: 63%;
+    top: 5%;
+}
+
+.topptr h3 {
+    margin-top: 7vw;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: hero;
+}
+
+.topptr h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    font-family: hero;
+    line-height: 4vw;
+}
+
+.page6 .bottomptr {
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vw;
+    padding: 3vw 5vw;
+    gap: 2vw;
+}
+
+.bottomptr .col1 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+}
+
+.col1 .img1 {
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.bottomptr .col1 .img1 img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+.bottomptr .col1 h1 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.bottomptr .col1 h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin-top: 1.3vw;
+}
+
+.bottomptr .col1 .img2 {
+    margin-top: -3vw;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.bottomptr .col1 .img2 img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+.bottomptr .col2 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+}
+
+.bottomptr .col2 .col2img1 {
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.bottomptr .col2 .col2img1 img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+.bottomptr .col2 h1 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.bottomptr .col2 h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin-top: 1.3vw;
+}
+
+.bottomptr .col2 .col2img2 {
+    margin-top: 3vw;
+    height: 50%;
+    width: 100%;
+    position: relative;
+
+}
+
+.bottomptr .col2 .col2img2 img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+.bottomptr .col3 {
+    height: 100%;
+    width: 33%;
+    position: relative;
+}
+
+.col3 .img1 {
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.bottomptr .col3 .img1 img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+.bottomptr .col3 h1 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.bottomptr .col3 h3 {
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin-top: 1.3vw;
+}
+
+.bottomptr .col3 .img2 {
+    margin-top: -3vw;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.bottomptr .col3 .img2 img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+
+
+/* page7 css */
+
+.page7{
+   /* min-height: 100vh; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.page7 h5{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: hero;
+}
+
+.page7 h1{
+    text-align: center;
+    font-size: 5.1vw;
+    font-weight: 100;
+    letter-spacing: 0.01vw;
+    line-height: 4.5vw;
+    font-family: hero2;
+    margin-bottom: 5vw;
+}
+.page7 form{
+    /* height: 100%;
+    width: 70%; */
+    padding: 0 2vw;
+    margin-top: 5vw;
+}
+.page7 form input,select,textarea{
+    margin-bottom: 2vw;
+}
+.page7 form label{
+    text-align: start;
+
+}
+
+.page7 form input,select,option,textarea{
+    width: 45vw;
+    height: 3.2vw;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4vw;
+    /* padding: 2vw; */
+    font-size: 1vw;
+    color: black;
+    align-items: center;
+    font-family: hero;
+    
+}
+
+input[type="text"],input[type="email"],input[type="date"]{
+    padding-left: 15px;
+    
+}
+option{
+    font-size: 1vw;
+}
+.textarea{
+    height: 5vw;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+
+.page7 form button{
+    background-color: black;
+    border-radius: 4vw;
+    color: white;
+    font-family: hero;
+    width: 7.2vw;
+    height: 3vw;
+    border: 1px solid #000;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.message{
+    font-weight: 600;
+    margin-bottom: -1vw;
+}
+
+/* Responsive CSS */
+@media (max-width: 600px) {
+
+    /* pgae1 CSS */
+
+    .page1 .centerpart h1 {
+        font-size: 6vw;
+    }
+
+    .page1 .centerpart h6 {
+        font-size: 3vw;
+
+    }
+
+    .page1 .centerpart button {
+        font-size: 2vw;
+
+    }
+
+
+
+    /* page2 CSS */
+
+
+
+    .imgContainer .part1 {
+        height: 50%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+
+    .imgContainer .container1 {
+        height: 20vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .imgContainer .container1 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: none;
+        border-radius: 2vw;
+        filter: brightness(80%);
+        cursor: pointer;
+    }
+
+
+
+    .imgContainer .container2 {
+        height: 20vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .imgContainer .container2 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: none;
+        border-radius: 2vw;
+        filter: brightness(80%);
+        cursor: pointer;
+    }
+
+    .imgContainer .part2 {
+        height: 50%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .imgContainer .container3 {
+        height: 20vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .imgContainer .container3 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: none;
+        border-radius: 2vw;
+        filter: brightness(80%);
+        cursor: pointer;
+    }
+
+    .imgContainer .container4 {
+        height: 20vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .imgContainer .container4 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border: none;
+        border-radius: 2vw;
+        filter: brightness(80%);
+        cursor: pointer;
+    }
+
+
+
+    /* page3 CSS */
+
+
+}

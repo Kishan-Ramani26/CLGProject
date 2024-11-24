@@ -1,0 +1,123 @@
+ @font-face {
+     font-family: hero;
+     src: url(../imgs/92zatBhPNqw73oTd4g.ttf);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: hero;
+ }
+
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+
+ }
+
+ main {
+     height: 100vh;
+     width: 100%;
+     position: relative;
+ }
+
+ main img {
+     height: 100vh;
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+     position: absolute;
+     z-index: -1;
+     filter: brightness(50%);
+ }
+
+ .Heading {
+     text-align: center;
+     font-size: 2.5vw;
+     font-weight: 700;
+     letter-spacing: 0.5vw;
+     color: #151515;
+     margin-bottom: 2vw;
+     padding-top: 120px;
+ }
+
+ .aboutus {
+     padding-left: 100px;
+     padding-right: 100px;
+     font-size: larger;
+ }
+
+
+
+ a {
+     text-decoration: none;
+     color: black;
+     font-size: 15px;
+ }
+
+ .contact {
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 20vw;
+ }
+
+ .formbg {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     height: 35vw;
+     width: 30vw;
+     border: 1px solid black;
+     border-radius: 1vw;
+     /* filter: blur(10px); */
+     /* backdrop-filter: blur(10px); */
+     /* -webkit-backdrop-filter: blur(10px); */
+ }
+
+ .contact label {
+     font-size: 1.5vw;
+     font-weight: 500;
+     color: black;
+ }
+
+ .contact ::placeholder {
+     font-size: 1.3vw;
+     color: rgba(0, 0, 0, 0.651);
+
+ }
+
+ .contact input {
+     color: black;
+     width: 20vw;
+     height: 2.5vw;
+     border-radius: 0%;
+     border: 1px solid gray;
+     background-color: transparent;
+     padding-left: 10px;
+     font-size: 1.5vw;
+ }
+
+ #contact {
+     background-color: #1d1c1c;
+     height: 40px;
+     width: 100%;
+     border-radius: 30px;
+     border: none;
+     font-size: larger;
+     color: white;
+     text-align: center;
+     cursor: pointer;
+     transition: all ease 0.3s;
+     bottom: 2.2vw;
+     position: absolute;
+ }
+
+ #contact:hover {
+     color: black;
+     background-color: #aafd83b6;
+ }
